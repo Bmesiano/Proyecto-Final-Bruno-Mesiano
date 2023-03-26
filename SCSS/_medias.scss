@@ -1,0 +1,124 @@
+@media (max-width: 1700px) {
+  .ofertas {
+    width: 100%;
+  }
+  .guitarras {
+    width: 100%;
+  }
+  .bajos {
+    width: 100%;
+  }
+  .libreria {
+    width: 100%;
+    .libreria_foto {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .ofertas {
+    width: 100%;
+  }
+  .bajos {
+    width: 100%;
+  }
+  .guitarras {
+    width: 100%;
+  }
+}
+
+@media (max-width: 570px) {
+  
+  h1 {
+    font-size: 200%;
+  }
+  
+  .ofertas__texto {
+    font-size: 100%;
+  }
+  .precio {
+    font-size: 130%;
+  }
+  .ofertas {
+    width: 100%;
+    height: 100%;
+  }
+  .guitarras {
+    width: 100%;
+    height: 100%;
+  }
+  .guitarras-sinopsis {
+    font-size: 90%;
+  }
+  .guitarras-1 {
+    width: 100%;
+    height: 400px;
+  }
+  .libreria {
+    width: 100%;
+    .libreria_acomodar {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "caja1 "
+        "caja2"
+        "caja4"
+        "caja3 ";
+    }
+    .libreria_foto {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .contacto {
+    .contacto_info {
+      font-size: 150%;
+    }
+  }
+  .mapa {
+    height: 100%;
+    width: 100%;
+    .mapa_1 {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 410px) {
+  .ofertas__texto {
+    font-size: 100%;
+  }
+  .precio {
+    font-size: 100%;
+  }
+
+  .libreria {
+    .libreria_texto {
+      font-size: 100%;
+    }
+    .libreria_foto {
+      width: 100%;
+      height: 100%;
+    }
+    .libreria_texto1 {
+      font-size: 100%;
+    }
+    .libreria_foto1 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .contacto {
+    .contacto_info {
+      font-size: 150%;
+    }
+  }
+  .mapa {
+    height: 100%;
+    width: 100%;
+    .mapa_1 {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

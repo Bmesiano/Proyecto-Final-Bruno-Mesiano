@@ -1,0 +1,25 @@
+.bajos {
+  border: solid 2px;
+  width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+margin-bottom: 10px;
+  &:hover{
+    transform: scale(1.05);
+    transition: 1s;
+  }
+  .bajos-1 {
+    width: 100%;
+  }
+  .bajos-texto1 {
+    font-family: "Caveat", cursive;
+  }
+  .bajos-texto2 {
+    font-family: "Caveat", cursive;
+    font-size: 190%;
+  }
+  .bajos-sinopsis1 {
+    font-family: "Crimson Text", serif;
+  }
+}
